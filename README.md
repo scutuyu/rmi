@@ -9,7 +9,7 @@ RPC是远程过程调用，跨系统、跨语言，缺点是不支持对象，�
 
 **确保系统正确安装了JDK和Maven**
 
-1. git clone xx
+1. git clone https://github.com/scutuyu/rmi.git
 2. mvn clean compile
 3. mvn idea:idea（或者mvn eclipse:eclipse)
 4. 将项目导入IDE后先后运行RmiServer.java和RmiClient.java

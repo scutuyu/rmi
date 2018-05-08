@@ -1,4 +1,4 @@
-package com.tuyu;
+package com.tuyu.service;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

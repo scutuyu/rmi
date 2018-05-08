@@ -1,6 +1,6 @@
-package com.tuyu;
+package com.tuyu.service.impl;
 
-import com.tuyu.HelloService;
+import com.tuyu.service.HelloService;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -12,7 +12,7 @@ import java.rmi.server.UnicastRemoteObject;
  */
 public class HelloServiceImpl extends UnicastRemoteObject implements HelloService {
 
-    protected HelloServiceImpl() throws RemoteException {
+    public HelloServiceImpl() throws RemoteException {
         super();
     }
 

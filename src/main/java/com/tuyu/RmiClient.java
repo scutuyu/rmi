@@ -1,5 +1,6 @@
 package com.tuyu;
 
+import com.tuyu.service.HelloService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,6 +8,8 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 /**
+ * RMI 客户端
+ * <p>远程对象的调用实际是通过调用该对象的客户端代理对象stub来完成的</p>
  * @author tuyu
  * @date 5/7/18
  * Stay Hungry, Stay Foolish.
@@ -21,6 +24,7 @@ public class RmiClient {
     public static void main(String[] args) {
         Registry registry = null;
         try {
+            // 获取所有已注册的服务
             registry = LocateRegistry.getRegistry(IP, PORT );
             String[] list = registry.list();
             for(String s : list){

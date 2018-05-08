@@ -1,0 +1,5 @@
+2018-05-08 08:13:09 858-->[main]--[INFO ]--[RmiServer]--rebind server at port : 8088
+2018-05-08 08:13:19 609-->[main]--[INFO ]--[RmiClient]--registry : hello
+2018-05-08 08:13:19 649-->[main]--[INFO ]--[RmiClient]--result from remote : Hi, 1525738399649
+2018-05-08 08:13:32 560-->[main]--[INFO ]--[RmiClient]--registry : hello
+2018-05-08 08:13:32 581-->[main]--[INFO ]--[RmiClient]--result from remote : Hi, 1525738412581
